@@ -1,0 +1,29 @@
+{
+	"name": "冰晶博客",
+	"short_name": "冰晶",
+	"description": "寒冷的知识",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#ffffff",
+	"theme_color": "#4CC3FF",
+	"icons": [
+		{
+			"src": "/favicon.gif",
+			"sizes": "240x240",
+			"type": "image/gif",
+			"purpose": "any"
+		},
+		{
+			"src": "/favicon.png",
+			"sizes": "240x240",
+			"type": "image/png",
+			"purpose": "any"
+		},
+		{
+			"src": "/favicon.ico",
+			"sizes": "128x128",
+			"type": "image/x-icon",
+			"purpose": "any"
+		}
+	]
+}

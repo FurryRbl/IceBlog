@@ -1,0 +1,163 @@
+{
+	"FriendshipLink": [
+		{
+			"name": "朋友们",
+			"data": [
+				{
+					"name": "Koto",
+					"link": "https://koto.cc/",
+					"avatar": "/site/assets/friendshipLink/avatar/Kato.webp",
+					"description": "Koto的灌水站"
+				},
+				{
+					"name": "中二蘑菇狐狸",
+					"link": "https://imfurry.com/",
+					"avatar": "/site/assets/friendshipLink/avatar/zebwqfox.webp",
+					"description": "一只狐狸敲出的一个奇迹"
+				},
+				{
+					"name": "澪度",
+					"link": "https://www.0du.top/",
+					"avatar": "/site/assets/friendshipLink/avatar/0du.webp",
+					"description": "福瑞控,音游批，成分也很杂。"
+				},
+				{
+					"name": "迷失的小K",
+					"link": "https://blog.kclub.tech/",
+					"avatar": "/site/assets/friendshipLink/avatar/kclub.webp",
+					"description": "一同畅游代码的海洋，感受极客世界的无限可能。"
+				},
+				{
+					"name": "西西のBlog",
+					"link": "https://xxand.cc",
+					"avatar": "/site/assets/friendshipLink/avatar/xxand.webp",
+					"description": "嘻嘻西西CC吸吸"
+				},
+				{
+					"name": "Hello! I'm 0o酱",
+					"link": "https://blog.im0o.top/",
+					"avatar": "/site/assets/friendshipLink/avatar/im0o.webp",
+					"description": "光阴如梦，昨日随风"
+				},
+				{
+					"name": "白山白墨",
+					"link": "https://iy.ink/",
+					"avatar": "/site/assets/friendshipLink/avatar/iy.webp",
+					"description": "嗯"
+				},
+				{
+					"name": "绀漓の杂货铺",
+					"link": "https://blog.sevtinge.cc/",
+					"avatar": "/site/assets/friendshipLink/avatar/sevtinge.webp",
+					"description": "这里是绀漓的杂货铺。看起来好像没人在这里，要不然偷一块面包？"
+				},
+				{
+					"name": "F_Qilin的小窝",
+					"link": "https://www.fqilin.top/blog",
+					"avatar": "/site/assets/friendshipLink/avatar/fqilin.webp",
+					"description": "一个小小的个人博客"
+				},
+				{
+					"name": "〖天蓝〗の小窝",
+					"link": "https://blog.meta1937.top/",
+					"avatar": "/site/assets/friendshipLink/avatar/meta1937.webp",
+					"description": "这里是〖天藍〗，18岁，学生です，是Furry哦~"
+				},
+				{
+					"name": "宽宽",
+					"link": "https://kuankuan2007.gitee.io/",
+					"avatar": "/site/assets/friendshipLink/avatar/kuankuan2007.webp",
+					"description": "宽宽的小天地"
+				}
+			]
+		},
+		{
+			"name": "站点",
+			"data": [
+				{
+					"name": "应龙笔记",
+					"link": "https://www.silverdragon.cn/?link=https://sharpice.top",
+					"avatar": "/site/assets/friendshipLink/avatar/silverdragon.webp",
+					"description": "应龙笔记是一个专注于知识分享的网站"
+				}
+			]
+		}
+	],
+	"post": [
+		{
+			"title": "文章渲染测试",
+			"description": "文章渲染测试",
+			"date": "4/172024 10:40:00",
+			"categories": "测试",
+			"keywords": ["测试"],
+			"tags": "测试",
+			"path": "/post/0.文章渲染测试/"
+		},
+		{
+			"title": "解决JavaScript DOM事件不生效问题",
+			"description": "解决前端通过async引入的JavaScript DOM事件不生效问题",
+			"date": "2/26/2024 17:30:00",
+			"categories": "前端",
+			"keywords": ["前端", "JavaScript", "DOM"],
+			"tags": "Android",
+			"path": "/post/1.解决JavaScript DOM事件不生效问题/"
+		},
+		{
+			"title": "Windows使用dll代理的方式进行dll注入",
+			"description": "利用Windows的寻库机制来实现对系统dll的代理实现dll注入",
+			"date": "3/12/2024 12:45:00",
+			"categories": "Windows",
+			"keywords": ["Windows", "底层开发"],
+			"tags": "Android",
+			"path": "/post/2.Windows使用dll代理的方式进行dll注入/"
+		},
+		{
+			"title": "尝试出一些比小米BL解锁答题还离谱的题目",
+			"description": "一些可能比小米BL解锁答题还离谱的题目",
+			"date": "4/1/2024 21:30:00",
+			"categories": "Android",
+			"keywords": [
+				"Android",
+				"小米",
+				"小米BL解锁答题",
+				"小米社区BL几所答题",
+				"BL解锁",
+				"BootLoader解锁"
+			],
+			"tags": "Android",
+			"path": "/post/3.尝试出一些比小米BL解锁答题还离谱的题目"
+		},
+		{
+			"title": "记一次使用.NET Core的AOT特性编写带DllMain的Windows动态链接库",
+			"description": "一个使用.NET Core的AOT特性编写带DllMain的Windows动态链接库的笔记",
+			"date": "4/19/2024 21:10:00",
+			"categories": "C#",
+			"keywords": [
+				"C#",
+				".NET",
+				".NET Core",
+				".NET Core AOT",
+				"AOT",
+				"C# 8.0",
+				"Windows"
+			],
+			"tags": "Windows",
+			"path": "/post/4.记一次使用.NET Core的AOT特性编写带DllMain的动态链接库"
+		},
+		{
+			"title": "记一次Android获取特定包下的所有类",
+			"description": "记一次Android获取特定包下的所有类",
+			"date": "4/19/2024 21:10:00",
+			"categories": "Android#",
+			"keywords": [
+				"Android#",
+				"Java",
+				"Android 开发",
+				"Android App",
+				"Android App开发"
+			],
+			"tags": "Android",
+			"path": "/post/4.记一次使用.NET Core的AOT特性编写带DllMain的动态链接库"
+		}
+	]
+}
