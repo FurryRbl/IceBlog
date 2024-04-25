@@ -5,7 +5,12 @@ import LocalBabelOptions from "./babel.config.js";
 import CopyWebpackPlugin from "copy-webpack-plugin";
 import HtmlWebpackPlugin from "html-webpack-plugin";
 import localPostcssOptions from "./postcss.config.js";
+import TerserPlugin from "terser-webpack-plugin";
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
+import CssMinimizerPlugin from "css-minimizer-webpack-plugin";
+import JsonMinimizerPlugin from "json-minimizer-webpack-plugin";
+import HtmlMinimizerPlugin from "html-minimizer-webpack-plugin";
+
 export default (env, argv) => {
 	const isDevelopmentMode =
 		argv.mode === "development" || process.env.NODE_ENV === "development";
@@ -79,6 +84,7 @@ export default (env, argv) => {
 			],
 		},
 		plugins: [
+			new webpack.ProgressPlugin(),
 			new VueLoaderPlugin(),
 			new webpack.DefinePlugin({
 				__VUE_OPTIONS_API__: true,
@@ -101,6 +107,15 @@ export default (env, argv) => {
 				publicPath: "/",
 			}),
 		],
+		optimization: {
+			minimize: isDevelopmentMode ? false : true,
+			minimizer: [
+				new TerserPlugin(),
+				new JsonMinimizerPlugin(),
+				new HtmlMinimizerPlugin(),
+				new CssMinimizerPlugin(),
+			],
+		},
 		devtool: isDevelopmentMode ? "source-map" : false,
 	};
 };

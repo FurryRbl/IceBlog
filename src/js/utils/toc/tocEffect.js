@@ -24,7 +24,7 @@ const scrollToNearestHeading = () => {
 			});
 
 			history.replaceState(null, null, "#" + closestHeadingId);
-		}, 100);
+		}, 200);
 	};
 
 	window.addEventListener("scroll", handleScroll);
@@ -72,7 +72,7 @@ const updateTocHighlightOnScroll = () => {
 				link.classList.add("select-toc");
 				link.scrollIntoView({ behavior: "smooth" });
 			}
-		}, 20);
+		}, 50);
 	};
 
 	window.addEventListener("scroll", handleScroll);

@@ -99,7 +99,7 @@
 			"date": "2/26/2024 17:30:00",
 			"categories": "前端",
 			"keywords": ["前端", "JavaScript", "DOM"],
-			"tags": "Android",
+			"tags": "前端",
 			"path": "/post/1.解决JavaScript DOM事件不生效问题/"
 		},
 		{
@@ -108,7 +108,7 @@
 			"date": "3/12/2024 12:45:00",
 			"categories": "Windows",
 			"keywords": ["Windows", "底层开发"],
-			"tags": "Android",
+			"tags": "Windows",
 			"path": "/post/2.Windows使用dll代理的方式进行dll注入/"
 		},
 		{
@@ -131,7 +131,7 @@
 			"title": "记一次使用.NET Core的AOT特性编写带DllMain的Windows动态链接库",
 			"description": "一个使用.NET Core的AOT特性编写带DllMain的Windows动态链接库的笔记",
 			"date": "4/19/2024 21:10:00",
-			"categories": "C#",
+			"categories": "Windows",
 			"keywords": [
 				"C#",
 				".NET",
@@ -141,14 +141,14 @@
 				"C# 8.0",
 				"Windows"
 			],
-			"tags": "Windows",
+			"tags": "C#",
 			"path": "/post/4.记一次使用.NET Core的AOT特性编写带DllMain的动态链接库"
 		},
 		{
 			"title": "记一次Android获取特定包下的所有类",
 			"description": "记一次Android获取特定包下的所有类",
 			"date": "4/19/2024 21:10:00",
-			"categories": "Android#",
+			"categories": "Android",
 			"keywords": [
 				"Android#",
 				"Java",

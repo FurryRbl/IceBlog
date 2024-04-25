@@ -12,6 +12,7 @@ import "@fontsource-variable/jetbrains-mono";
 import "highlight.js/scss/atom-one-dark.scss";
 import errorDialog from "./utils/errorDialog.js";
 import "overlayscrollbars/overlayscrollbars.css";
+import "@fancyapps/ui/dist/fancybox/fancybox.css";
 import { OverlayScrollbars } from "overlayscrollbars";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 import { fab } from "@fortawesome/free-brands-svg-icons";

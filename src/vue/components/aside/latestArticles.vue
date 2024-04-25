@@ -5,7 +5,7 @@
 			最新文章
 		</p>
 		<div class="space-y-4">
-			<div v-for="(item, index) in $site.post.slice(-5).reverse()" :key="index" class="space-y-3">
+			<div v-for="(item, index) in $site.post.slice(-3).reverse()" :key="index" class="space-y-3">
 				<a :href="item.path" :title="item.title" class="blocks truncate">
 					<p class="text-xs">{{ formatDate(item.date) }}</p>
 					<p class="truncate">{{ item.title }}</p>
