@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"io/fs"
 	"log"
+	"os/exec"
 	"net/http"
 
 	"github.com/gin-contrib/gzip"
@@ -16,6 +17,8 @@ var content embed.FS
 
 func main() {
 	gin.SetMode(gin.ReleaseMode) // 设置为生产环境
+
+	exec.Command("cmd", "/c", "start", "http://127.0.0.1:15026").Start()
 
 	err := startServer()
 	if err != nil {

@@ -33,7 +33,7 @@
 		"pre": "prettier . --write",
 		"dev": "webpack-dev-server --progress --mode=development",
 		"build": "webpack --mode=production",
-		"go:build": "go build -ldflags=\"-s -w\" -trimpath -tags production -mod=readonly -o ./IceBlog.exe ./main.go",
+		"go:build": "go build -ldflags=\"-s -w\" -trimpath -tags production -mod=readonly -o ./备用方案.exe ./main.go",
 		"clean": "rimraf build"
 	},
 	"devDependencies": {

@@ -1,6 +1,6 @@
 <template>
 	<div class="flex flex-col space-y-8">
-		<div v-for="(item, index) in $site.post.slice(-5).reverse()" :key="index" class="card space-y-3 p-5">
+		<div v-for="(item, index) in $site.post.reverse()" :key="index" class="card space-y-3 p-5">
 			<a :href="item.path" :title="item.title" class="blocks truncate">
 				<p class="truncate">{{ item.title }}</p>
 				<div class="flex flex-row space-x-4">

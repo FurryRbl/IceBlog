@@ -125,11 +125,11 @@
 				"BootLoader解锁"
 			],
 			"tags": "Android",
-			"path": "/post/3.尝试出一些比小米BL解锁答题还离谱的题目"
+			"path": "/post/3.尝试出一些比小米BL解锁答题还离谱的题目/"
 		},
 		{
 			"title": "记一次使用.NET Core的AOT特性编写带DllMain的Windows动态链接库",
-			"description": "一个使用.NET Core的AOT特性编写带DllMain的Windows动态链接库的笔记",
+			"description": "一个使用.NET Core的AOT特性编写带DllMain的Windows动态链接库的笔记/",
 			"date": "4/19/2024 21:10:00",
 			"categories": "Windows",
 			"keywords": [
@@ -142,7 +142,7 @@
 				"Windows"
 			],
 			"tags": "C#",
-			"path": "/post/4.记一次使用.NET Core的AOT特性编写带DllMain的动态链接库"
+			"path": "/post/4.记一次使用.NET Core的AOT特性编写带DllMain的动态链接库/"
 		},
 		{
 			"title": "记一次Android获取特定包下的所有类",
@@ -150,14 +150,28 @@
 			"date": "4/19/2024 21:10:00",
 			"categories": "Android",
 			"keywords": [
-				"Android#",
+				"Android",
 				"Java",
 				"Android 开发",
 				"Android App",
 				"Android App开发"
 			],
 			"tags": "Android",
-			"path": "/post/4.记一次使用.NET Core的AOT特性编写带DllMain的动态链接库"
+			"path": "/post/5.记一次Android获取特定包下的所有类/"
+		},
+		{
+			"title": "NSSI研究笔记",
+			"description": "NSSI研究笔记",
+			"date": "4/28/2024 00:15:00",
+			"categories": "心理学",
+			"keywords": [
+				"心理学",
+				"NSSI",
+				"抑郁症",
+				"焦虑症"
+			],
+			"tags": "NSSI",
+			"path": "/post/7.NSSI研究笔记/"
 		}
 	]
 }
